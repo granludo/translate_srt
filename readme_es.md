@@ -25,15 +25,12 @@ Este proyecto proporciona un script para traducir archivos de subtítulos SRT de
 
 2. Instala los paquetes requeridos:
    ```
-   pip install openai tqdm
+   pip install -r requirements.txt
    ```
 
 3. Configura tu clave API de OpenAI:
-   Crea un archivo llamado `mykey.json` en el directorio padre del script con el siguiente contenido:
-   ```json
-   {
-     "key": "tu-clave-api-de-openai-aquí"
-   }
+   ```
+   export OPENAI_API_KEY=your_key
    ```
 
 ## Uso

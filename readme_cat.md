@@ -25,15 +25,12 @@ Aquest projecte proporciona un script per traduir fitxers de subtítols SRT de l
 
 2. Instal·la els paquets requerits:
    ```
-   pip install openai tqdm
+   pip install -r requirements.txt
    ```
 
 3. Configura la teva clau API d'OpenAI:
-   Crea un fitxer anomenat `mykey.json` al directori pare de l'script amb el següent contingut:
-   ```json
-   {
-     "key": "la-teva-clau-api-d-openai-aqui"
-   }
+   ```
+   export OPENAI_API_KEY=your_key
    ```
 
 ## Ús
