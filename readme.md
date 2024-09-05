@@ -25,15 +25,12 @@ This project provides a script to translate SRT subtitle files from English to a
 
 2. Install the required packages:
    ```
-   pip install openai tqdm
+   pip install -r requirements.txt
    ```
 
-3. Set up your OpenAI API key:
-   Create a file named `mykey.json` in the parent directory of the script with the following content:
-   ```json
-   {
-     "key": "your-openai-api-key-here"
-   }
+3. Set your OpenAI API key as an environment variable:
+   ```
+   export OPENAI_API_KEY=your_key
    ```
 
 ## Usage
